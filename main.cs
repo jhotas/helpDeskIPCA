@@ -8,5 +8,6 @@ namespace helpDeskIPCA
 {
     internal class main
     {
+        Console.WriteLine("Teste");
     }
 }
