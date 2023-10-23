@@ -9,29 +9,29 @@ namespace helpDeskIPCA
     class Assistencia
     {
         public int ID;
-        public string tipo;
-        public string estado;
-        public string descricao;
-        public string operador;
-        public string cliente;
-        public int avaliacao;
+        public string type;
+        public string state;
+        public string description;
+        public string technical;
+        public string client;
+        public int avaliation;
 
-        public Assistencia(int ID, string tipo, string estado, string descricao, string operador, string cliente)
+        public Assistencia(int ID, string type, string state, string description, string technical, string client)
         {
             this.ID = ID;
-            this.tipo = tipo;
-            this.estado = estado;
-            this.descricao = descricao;
-            this.operador = operador;
-            this.cliente = cliente;
+            this.type = type;
+            this.state = state;
+            this.description = description;
+            this.technical = technical;
+            this.client = client;
         }
 
-        public void avaliar(string novoEstado, int avaliacaoAtendimento)
+        public void avaliar(string newState, int avaliateAssistance)
         {
-            estado = novoEstado;
-            avaliacao = avaliacaoAtendimento;
-            Console.WriteLine($"A assistência com ID {ID} foi alterada para {estado}.\n");
-            Console.WriteLine($"Você avaliou em {avaliacao} o atendimento de {operador}.\n");
+            state = newState;
+            avaliation = avaliateAssistance;
+            Console.WriteLine($"A assistência com ID {ID} foi alterada para {state}.\n");
+            Console.WriteLine($"Você avaliou em {avaliation} o atendimento de {technical}.\n");
         }
     }
 
