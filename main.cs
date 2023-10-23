@@ -48,7 +48,10 @@ namespace helpDeskIPCA
             {
                 if (escolha == 1)
                 {
-                    Console.WriteLine("");
+                    string description;
+                    Console.WriteLine("De uma descrição de seu problema: ");
+                    description = Console.ReadLine();
+                    Assistencia a1 = new Assistencia(32143, "Celular", description, "Jean", "Gabriel");
                 }
             }
         }
