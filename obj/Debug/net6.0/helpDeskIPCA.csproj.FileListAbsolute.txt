@@ -1,0 +1,14 @@
+C:\Users\jcwil\source\repos\helpDeskIPCA\helpDeskIPCA\bin\Debug\net6.0\helpDeskIPCA.exe
+C:\Users\jcwil\source\repos\helpDeskIPCA\helpDeskIPCA\bin\Debug\net6.0\helpDeskIPCA.deps.json
+C:\Users\jcwil\source\repos\helpDeskIPCA\helpDeskIPCA\bin\Debug\net6.0\helpDeskIPCA.runtimeconfig.json
+C:\Users\jcwil\source\repos\helpDeskIPCA\helpDeskIPCA\bin\Debug\net6.0\helpDeskIPCA.dll
+C:\Users\jcwil\source\repos\helpDeskIPCA\helpDeskIPCA\bin\Debug\net6.0\helpDeskIPCA.pdb
+C:\Users\jcwil\source\repos\helpDeskIPCA\helpDeskIPCA\obj\Debug\net6.0\helpDeskIPCA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jcwil\source\repos\helpDeskIPCA\helpDeskIPCA\obj\Debug\net6.0\helpDeskIPCA.AssemblyInfoInputs.cache
+C:\Users\jcwil\source\repos\helpDeskIPCA\helpDeskIPCA\obj\Debug\net6.0\helpDeskIPCA.AssemblyInfo.cs
+C:\Users\jcwil\source\repos\helpDeskIPCA\helpDeskIPCA\obj\Debug\net6.0\helpDeskIPCA.csproj.CoreCompileInputs.cache
+C:\Users\jcwil\source\repos\helpDeskIPCA\helpDeskIPCA\obj\Debug\net6.0\helpDeskIPCA.dll
+C:\Users\jcwil\source\repos\helpDeskIPCA\helpDeskIPCA\obj\Debug\net6.0\refint\helpDeskIPCA.dll
+C:\Users\jcwil\source\repos\helpDeskIPCA\helpDeskIPCA\obj\Debug\net6.0\helpDeskIPCA.pdb
+C:\Users\jcwil\source\repos\helpDeskIPCA\helpDeskIPCA\obj\Debug\net6.0\helpDeskIPCA.genruntimeconfig.cache
+C:\Users\jcwil\source\repos\helpDeskIPCA\helpDeskIPCA\obj\Debug\net6.0\ref\helpDeskIPCA.dll
