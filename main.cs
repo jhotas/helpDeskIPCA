@@ -44,7 +44,7 @@ namespace helpDeskIPCA
     {
         static void imprimirDados(Assistencia n)
         {
-            Console.WriteLine($"Assistência {n.ID}:\n");
+            Console.WriteLine($"Assistência {n.ID}:\n"); 
             Console.WriteLine($"Tipo: {n.type}\n");
             Console.WriteLine($"Estado: {n.state}\n");
             Console.WriteLine($"Descrição: {n.description}\n");
@@ -55,16 +55,16 @@ namespace helpDeskIPCA
 
         static void Main(string[] args)
         {
-            int escolha;
+            int choice;
             // Transformar o processo de escolha em uma função.
             Console.WriteLine(" ||| Helpdesk IPCA ||| ");
             Console.WriteLine("Selecione uma das opções: \n1. Obter assistência\n2. Verificar estado de uma assistência\n" +
                 "3. Resolução de problemas\n4. Sair");
-            escolha = int.Parse(Console.ReadLine());
+            choice = int.Parse(Console.ReadLine());
             // Limpa o console para facilitar a leitura.
             Console.Clear();
 
-            if (escolha == 1)
+            if (choice == 1)
             {
                 string type, client, description;
                 Console.WriteLine("Iremos lhe ajudar em seu problema, primeiro nos diga seu nome: \n");
@@ -74,11 +74,26 @@ namespace helpDeskIPCA
                 Console.WriteLine($"{client}, dê uma descrição de seu problema: \n");
                 description = Console.ReadLine();
                 Console.WriteLine($"Por favor aguarde, iremos encaminhar a assistência para um de nossos técnicos...");
+                Thread.Sleep(5000);
                 // Gera um número aleatório de 4 dígitos para o ID
                 Random rnd = new Random();
                 // a1 é apenas para testes, não será usado.
                 Assistencia a1 = new Assistencia(rnd.Next(1000, 9999), type, "Em progresso", description, "Jean", client, 10);
                 imprimirDados(a1);
+            } 
+            else if (choice == 2)
+            {
+                int number;
+
+                Console.WriteLine("Digite o ID de sua assistência: ");
+                number = int.Parse(Console.ReadLine());
+                
+                
+            }
+            else if (choice == 3)
+            {
+                int x;
+                Console.WriteLine("1. Computador\n2. Telemóvel\n3. Impressora\n4. Outro");
             }
         }
     }
