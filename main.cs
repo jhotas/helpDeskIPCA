@@ -93,7 +93,26 @@ namespace helpDeskIPCA
             else if (choice == 3)
             {
                 int x;
-                Console.WriteLine("1. Computador\n2. Telemóvel\n3. Impressora\n4. Outro");
+
+                Console.WriteLine("1. Computador\n2. Telemóvel\n3. Impressora\n4. Outro dispositivo");
+                x = int.Parse(Console.ReadLine());
+
+                switch (x)
+                {
+                    case 1: // Tutoriais para computador
+
+                        break;
+                    case 2: // Tutoriais para telemóvel
+
+                        Console.WriteLine("");
+                        break;
+                    case 3: // Tutoriais para impressora
+                        Console.WriteLine("");
+                        break;
+                    case 4:
+                        Console.WriteLine("");
+                        break;
+                }
             }
         }
     }
