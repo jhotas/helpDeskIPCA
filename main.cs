@@ -100,11 +100,11 @@ namespace helpDeskIPCA
                 switch (x)
                 {
                     case 1: // Tutoriais para computador
-
+                        
                         break;
                     case 2: // Tutoriais para telemóvel
-
-                        Console.WriteLine("");
+                        Console.WriteLine("1. Como Reiniciar um Smartphone\n2. Limpar o Cache de Aplicativos\n" +
+                            "3. Liberar Espaço de Armazenamento\n5. Problemas de Conexão Wi-Fi ou Dados Móveis\n6. Problemas de Som");
                         break;
                     case 3: // Tutoriais para impressora
                         Console.WriteLine("");
@@ -113,6 +113,11 @@ namespace helpDeskIPCA
                         Console.WriteLine("");
                         break;
                 }
+            }
+            else if (choice == 4)
+            {
+                Console.WriteLine("Agradecemos o contacto, estamos aqui sempre que precisar de ajuda!\n");
+                Environment.Exit(0);
             }
         }
     }
