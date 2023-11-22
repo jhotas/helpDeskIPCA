@@ -31,7 +31,7 @@ namespace helpDeskIPCA
         }
 
         // Método para o cliente avaliar o atendimento
-        public void avaliar(string newState, int avaliateAssistance)
+        public void avaliateTechnical(string newState, int avaliateAssistance)
         {
             state = newState;
             avaliation = avaliateAssistance;
@@ -42,7 +42,7 @@ namespace helpDeskIPCA
 
     class main
     {
-        static void imprimirDados(Assistencia n)
+        static void printAssistance(Assistencia n)
         {
             Console.WriteLine($"Assistência {n.ID}:\n"); 
             Console.WriteLine($"Tipo: {n.type}\n");
@@ -79,7 +79,7 @@ namespace helpDeskIPCA
                 Random rnd = new Random();
                 // a1 é apenas para testes, não será usado.
                 Assistencia a1 = new Assistencia(rnd.Next(1000, 9999), type, "Em progresso", description, "Jean", client, 10);
-                imprimirDados(a1);
+                printAssistance(a1);
             } 
             else if (choice == 2)
             {
